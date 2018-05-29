@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SvgimgComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
 
-  ngOnInit() {
   }
 
+  ngOnInit() {
+
+  }
+
+  clicked() {
+    alert("hello test");
+  }
 }
